@@ -39,7 +39,7 @@ public static void main(String[] args){
 	BlackScholes newObj=new BlackScholes();
 	double num=newObj.CallPrice();
 	double num2=newObj.PutPrice();
-	System.out.println(num);
-	System.out.println(num2);
+	System.out.println("The call price is: "+num);
+	System.out.println("The put price is: "+ num2);
 }
 }
